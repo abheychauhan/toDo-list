@@ -10,9 +10,7 @@ The Advanced React To-Do Application is a feature-rich task management app built
 - 💾 **Persistent Storage**: Stores tasks in local storage for session persistence.
 - 📱 **Responsive UI**: Adapts seamlessly across mobile, tablet, and desktop devices.
 
-## 📸 Screenshots
-- **Mobile View** 📱
-- **Desktop View** 🖥
+
 
 ## ⚙️ Setup & Installation
 
