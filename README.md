@@ -1,12 +1,72 @@
-# React + Vite
+# Advanced React To-Do Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Overview
+The Advanced React To-Do Application is a feature-rich task management app built with React.js. It includes advanced state management, weather API integration, and a responsive design that adapts to both mobile and desktop screens. The app allows users to manage tasks efficiently while displaying real-time weather data.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- ✅ **Task Management**: Add, view, and delete tasks easily.
+- 🌦 **Weather Integration**: Fetch and display real-time weather data for the next two days using the OpenWeather API.
+- 🔐 **User Authentication**: Basic login/logout functionality (mocked, without backend integration).
+- 💾 **Persistent Storage**: Stores tasks in local storage for session persistence.
+- 📱 **Responsive UI**: Adapts seamlessly across mobile, tablet, and desktop devices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Screenshots
+- **Mobile View** 📱
+- **Desktop View** 🖥
 
-## Expanding the ESLint configuration
+## ⚙️ Setup & Installation
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🛠 Steps to Set Up the Project
+1. **Create a new React project using Vite**:
+   ```bash
+   npm create vite@latest react-to-do-list --template react
+   cd react-to-do-list
+
+2. 
+
+  npm install
+
+3. **Set up API keys**:
+   Create a .env file in the project root.
+   Add your OpenWeather API key:
+
+4. **Run the development server:**
+   npm run dev
+
+
+### 📂 Prerequisites
+Ensure you have the following installed on your system:
+- **Node.js** (>=14.x)
+- **npm** (>=6.x) or **yarn** (optional)
+
+react-to-do-list/
+│── src/
+│   │── components/
+│   │   ├── [Weather.jsx]
+│   │   ├── [TaskList.jsx]
+│   │   ├── [TaskInput.jsx]
+│   │── redux/
+│   │   ├── [authSlice.jsx]
+│   │   ├── [taskSlice.jsx]
+│   │   ├── [store.jsx]
+│   │── [App.jsx]
+│   │── [main.jsx]
+│   │── [index.css]
+│── public/
+│   ├── vite.svg
+│── .env
+│── [package.json]
+│── [README.md]
+│── [vite.config.js]
+│── [eslint.config.js]
+│── [index.html]
+
+
+
+## 🛠 Technologies Used
+- ⚛ **React.js** (Functional Components, Hooks)
+- 🎯 **Redux** (State Management)
+- 🔗 **Axios** (API Calls)
+- 🎨 **CSS Grid & Flexbox** (Responsive Design)
+- 💾 **LocalStorage** (Data Persistence)
+- 🌍 **OpenWeather API** (Weather Integration)
